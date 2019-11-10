@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Handles a single background star's movement and destruction
+/// </summary>
 public class StarScript : MonoBehaviour
 {
     private Rigidbody rig;
@@ -19,7 +22,7 @@ public class StarScript : MonoBehaviour
     /// Lauch star to movement
     /// </summary>
     /// <param name="speed">star speed</param>
-    /// <param name="shifting">wether star should fly aligned</param>
+    /// <param name="lifeTime">how long should star remain in scene</param>
     public void Launch(float speed, float lifeTime)
     {
         Destroy(gameObject, lifeTime);
