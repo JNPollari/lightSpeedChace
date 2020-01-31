@@ -12,7 +12,7 @@ To run and modify the project, you will need Unity game engine with c# editor. Y
 
 ## Authors
 
-* [JNPollari](https://github.com/JNPollari)
+* [Joonas Pollari](https://github.com/JNPollari)
 
 
 ## Acknowledgments
